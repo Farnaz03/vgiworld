@@ -67,3 +67,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.menu active {
+  color: white;
+}
