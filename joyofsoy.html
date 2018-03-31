@@ -4,47 +4,74 @@
   <meta charset="utf-8">
   <title>Vegetarian Gardens Inc.</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Dancing+Script" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-  <div id="header">
-    <div id="logo">
-      <a href="index.html">
-        <img src="image/logo1.png" alt="logo"></a>
-        +592-227-7714
-        info@vgiworld.com
+<body class="about-bg">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="logo" href="index.html"><img src="image/logo1.png" alt="logo" style="width: 75%; height: auto;"></a>
+      </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="history.html">History</a></li>
+              </ul>
+            </li>
+            <li><a href="partners.html">Partners & Distributors</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li class="active"><a href="joyofsoy.html">Links</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
       </div>
     </div>
+  </nav>
 
-    <div class="menu">
-      <div>
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">About</button>
-          <div class="dropdown-content">
-            <a href="about.html">About Us</a>
-            <a href="history.html">History</a>
-          </div>
-        </div>
-        <a href="partners.html">Partners & Distributors</a>
-        <a href="products.html">Products</a>
-        <a href="joyofsoy.html" class="active">Links</a>
-        <a href="careers.html">Careers</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
+  <div class="container">
+    <h2> Benefits of Soy </h2>
+    <h5><em>"Joy of Soy"</em></h5>
+    <p>Soy beans contain high amounts of protein, including all essential amino acids
+      (the only such vegetable source). Soy beans are also a rich source of calcium, iron,
+      zinc, phosphorus, magnesium, B-vitamins, omega 3 fatty acids and fiber. Soy is truly
+      a wonder food for the following reasons:</p>
+      <ul>
+        <li>Excellent Source of Dietary fiber and protein</li>
+        <li>Capable of lowering cholesterol in the body thus helping to reduce heart risks</li>
+        <li>Helps to prevent the symptoms of menopause</li>
+        <li>Good for prevention and treatment against Prostate Cancer</li>
+        <li>Excellent source of Calcium</li>
+        <li>Source of magnesium and boron, which are important co-factors of calcium for bone health</li>
+      </ul> <br>
 
-  <div id="content_main">
-  </dvi>
+      <p>In 1999, FDA authorized a health claim about the relationship between soy protein and
+        Coronary Heart Disease (CHD) on labelling of foods containing soy protein. 1 <br>
+        A heart health claim can be found on qualified soy products. <br>
+        <strong>Health Claim:</strong> <br>
+        Diets low in saturated fat and cholesterol that include 25 grams of soy protein a day may
+        reduce the risk of heart disease. One serving of [name of produce] provides [amount] of soy protein. 2
+      </p>
 
-  <div id="footer">
-    <div>
-      Copyright &copy; 2018 Vegetarian Gardens Inc.
-    </div>
-    <div>
-      CSE2201 Project by Jermaine & Farnaz
-    </div>
   </div>
+
+  <footer>
+      Copyright &copy; 2018 Vegetarian Gardens Inc.
+      CSE2201 Project by Jermaine & Farnaz
+    </footer>
 </body>
 </html>
