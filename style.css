@@ -5,14 +5,11 @@ html, body {
 #myNavbar {
   position:relative;
   float: right;
+  font-weight: normal !important;
   font-family: 'Cabin', sans-serif;
   font-size: 1.4em;
 }
 
-.logo{
-    max-width: 100%;
-    height: auto:
-}
 .bg{
   background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.2)), url("bg3.jpg");
   height:50%;
@@ -31,7 +28,36 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.6;
-
 }
+div.container {
+  margine: 30px;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+div.container h2, h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+div.container h2 {
+  font-family: 'Dancing Script', cursive;
+  color: green;
+  text-shadow: 3px;
+}
+
+div.info {
+  margin: 5%;
+  color: #000000;
+  font-size: 130%;
+  line-height: 2em;
+  overflow: scroll;
+}
+
+footer {
+  margin-top: 20%;
+  color: white;
+}
+
 /* font-family: 'Cabin', sans-serif;
 font-family: 'Dancing Script', cursive; */
