@@ -10,25 +10,32 @@ html, body {
   font-size: 1.4em;
 }
 
+.navbar-default {
+  opacity: 0.8;
+}
+
 .bg{
   background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.2)), url("bg3.jpg");
   height:50%;
   background-position: center;
   background-size: cover;
-  opacity: 0.6;
 }
 .navbar-default {
   background: linear-gradient(transparent) !important;
 }
 
+div.container.index {
+  opacity: 0.8;
+}
+
 div.container {
-  margine: 30px;
   background-color: #ffffff;
+  opacity: 0.7;
 }
 
 div.container h2, h5 {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 div.container h2 {
@@ -42,17 +49,23 @@ div.info {
   color: #000000;
   font-size: 130%;
   line-height: 2em;
-  overflow: scroll;
+  opacity: 0.7;
+}
+.rounded-circle {
+  opacity: 1;
 }
 
-footer {
-  margin-top: 20%;
-  color: white;
-  text-align: center;
-}
-#footer {
+a {
   color: black;
-  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+ color: green;
+ text-decoration: none;
+}
+p {
+  color: black;
 }
 
 .p-bg {
@@ -66,7 +79,110 @@ footer {
   height:50%;
   background-position: center;
   background-size: cover;
-  opacity: 0.7;
+}
+
+.ptr {
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 2%;
+}
+
+.ptr img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ptr a {
+  text-align: center;
+  font-size: 1em;
+}
+
+.dtrr {
+  display: block;
+  width: 33.33%;
+  float: left;
+  padding: 2%;
+}
+
+.dtrr img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtr {
+  display: block;
+  width: 25%;
+  float: left;
+  padding: 2%;
+}
+
+.dtr img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtr a {
+    text-align: center;
+    font-size: 1em;
+}
+
+.dtrr a {
+  text-align: center;
+  font-size: 1em;
+}
+
+footer {
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+}
+#footer {
+  color: black;
+  text-align: center;
+}
+
+/*Contact page info*/
+html {
+  box-sizing:border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.ccon {
+  padding: 0 16px;
+}
+
+.ccon::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
 }
 
 /* font-family: 'Cabin', sans-serif;
