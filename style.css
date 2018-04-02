@@ -29,6 +29,13 @@ html, body {
     margin-bottom: 2%;
 }
 
+@media screen and (max-width: 650px) {
+  .button1 {
+    width: 50%;
+    display: block;
+  }
+}
+
 .button1 a:hover {
     color: white;
 }
@@ -85,6 +92,21 @@ div.info {
   font-size: 130%;
   line-height: 2em;
   opacity: 0.7;
+}
+
+/*Product Page style*/
+.p_column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 850px) {
+  .p_column {
+    width: 100%;
+    display: block;
+  }
 }
 
 /*Links - Info - Images */
@@ -160,10 +182,6 @@ p {
   font-size: 1em;
 }
 
-.rounded-circle {
-  opacity: 1;
-}
-
 @media screen and (max-width: 650px) {
   .dtrr, .dtr, .ptr {
     width: 100%;
@@ -182,11 +200,6 @@ html {
   box-sizing:border-box;
 }
 
-.contact_table {
-    align: center;
-    padding: 10px;
-}
-
 /*Contact Form*/
 .formbody {
   width: 50%;
@@ -203,11 +216,20 @@ html {
      padding-right: 10%;
 }
 .telp {
-    padding: 15%;
+  position: relative;
+    padding: 10%;
     text-align: center;
     width: 50%;
     display: block;
     float: left;
+}
+
+@media screen and (max-width: 650px) {
+  .telp {
+    width: 50%;
+    display: block;
+    font-size: 3vw;
+  }
 }
 
 span {
@@ -232,35 +254,47 @@ span {
 textarea {
   resize: none;
 }
-
+/*form button*/
 .button {
-      border: none;
+      border: 1px solid grey;
       color: black;
       padding: 16px 32px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      margin: 4px 2px;
+      width: auto;;
+      height: auto;
+      resize: none;
   }
 
-  .button a:hover {
-      color: white;
+.button a:hover {
+    color: white;
   }
-  .button:hover {
-      background-color: #6bd12e;
-      color: white;
+.button:hover {
+    background-color: #6bd12e;
+    color: white;
   }
 
-  .m_address {
-    width: 100%;
-    padding: 1%;
-    margin: 1%;
-    margin-bottom: 2%;
+@media screen and (max-width: 850px) {
+  .button {
+    width: 50%;
+    display: block;
+    padding: 5px 5px;
+    font-size: 2vw;
+    }
   }
-  .mail_add {
-      display: block;
-      float: left;
-      width: 33.33%;
+
+.m_address {
+  width: 100%;
+  padding: 2%;
+  margin: 1%;
+  margin-bottom: 2%;
+  }
+
+.mail_add {
+    display: block;
+    float: left;
+    width: 33.33%;
   }
 
 /*Contact Team Info*/
