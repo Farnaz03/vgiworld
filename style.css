@@ -109,6 +109,38 @@ div.info {
   }
 }
 
+/*Ingredient buttons on Product Page*/
+#ingred1, #ingred2, #ingred3, #ingred4,
+#ingred5, #ingred6, #ingred7, #ingred8, #ingred9, #ingred10 {
+  display: none;
+}
+
+.pbtn {
+  background-color: white;
+  color: black;
+  border: 2px solid #6bd12e;
+  text-align: center;
+  margin: 0 auto;
+  width: 23%;
+  padding: 2%;
+  font-size: 13px;
+  margin-bottom: 0.5%;
+}
+
+@media screen and (max-width: 650px) {
+  .pbtn {
+    width: 50%;
+    display: block;
+  }
+}
+
+.pbtn a:hover {
+    color: white;
+}
+.pbtn:hover {
+    background-color: #6bd12e;
+}
+
 /*Links - Info - Images */
 a {
   color: black;
